@@ -1,0 +1,1 @@
+explorer.exe %~dp0sys\amd64

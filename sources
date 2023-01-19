@@ -1,0 +1,20 @@
+TARGETNAME=AntiRootKit
+TARGETTYPE=DRIVER
+TARGETPATH=SYS
+LINKER_FLAGS=/INTEGRITYCHECK
+
+INCLUDES=G:\WinDDK\7600.16385.1\inc\ddk
+
+SOURCES=main.c \
+io_dispatch.c \
+hde64.c \
+file.c \
+hook.c \
+trampoline.c \
+mem.c \
+nt.c \
+pe.c \
+symbol_map.c \
+sys.c \
+unit.c \
+filter.c \
